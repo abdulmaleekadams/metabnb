@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import TopBanner from "../components/topBanner/TopBanner";
 import Market from "../components/market/Market";
 import CardGallery from "../components/cardGallery/CardGallery";
+import BottomBanner from "../components/bottomBanner/BottomBanner";
 
 export default function Home() {
   return (
@@ -17,7 +18,14 @@ export default function Home() {
 
       <TopBanner />
       <Market />
-      <CardGallery header={<h3>Inspiration for your next adventure</h3>} />
+      <CardGallery
+        header={
+          <div className={styles.cardGalleryHeader}>
+            <h3>Inspiration for your next adventure</h3>
+          </div>
+        }
+      />
+      <BottomBanner />
     </>
   );
 }

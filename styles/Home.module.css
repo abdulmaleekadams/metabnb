@@ -30,3 +30,11 @@
 
 @media (prefers-color-scheme: dark) {
 }
+
+.cardGalleryHeader{
+  margin: 15px 0 3.6rem;
+}
+
+.cardGalleryHeader h3{
+   font-size: 3.3rem;
+}

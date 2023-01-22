@@ -6,7 +6,7 @@ const TopBanner = () => {
     <section className={clsx(styles.topBanner)}>
       <div className={clsx(styles.text)}>
         <h1>
-          Rent a<span> place</span> away from
+          Rent a<span> Place</span> away from
           <br />
           <span>Home</span> in the <span>Metaverse</span>
         </h1>
