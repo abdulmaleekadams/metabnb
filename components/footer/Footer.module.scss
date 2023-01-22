@@ -1,0 +1,41 @@
+.footer {
+  background: black;
+  color: #fff;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  .main {
+    display: flex;
+    width: 100%;
+    .brand {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 30%;
+
+      .social {
+       display: flex;
+       width: 50%;
+        justify-content: space-around;
+      }
+    }
+    .links {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 80%;
+
+      > div {
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+        row-gap: 2rem;
+        .link{
+            display: flex;
+            flex-direction: column;
+            row-gap:2rem;
+        }
+      }
+    }
+  }
+}
