@@ -1,6 +1,5 @@
 import clsx from "clsx";
 import Image from "next/image";
-import React from "react";
 import styles from "./Header.module.scss";
 
 import { Red_Rose } from "@next/font/google";
