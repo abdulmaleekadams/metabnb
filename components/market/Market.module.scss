@@ -1,0 +1,14 @@
+.market{
+    display: flex;
+    justify-content: space-between;
+    background: #a02279;
+    width: 100%;
+    padding: 0.85rem 5rem;
+    align-items: center;
+
+    div{
+        img{
+            transform: scale(1.4);
+        }
+    }
+}
